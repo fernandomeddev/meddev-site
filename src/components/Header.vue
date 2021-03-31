@@ -17,7 +17,7 @@
 alt="wdev" id="menu-logo">
 
             <ul>
-                <li v-on:click="closeMenu"><router-link to="/">Home</router-link></li>
+                <li v-on:click="closeMenu"><router-link to="/">Adicionar Paciente</router-link></li>
                 <li v-on:click="closeMenu"><router-link to="/Videos">Videos</router-link></li>
                 <li v-on:click="closeMenu" ><router-link to="/Sobre">Sobre</router-link></li>
                 <li v-on:click="closeMenu"><router-link to="/Contato">Contatos</router-link></li>

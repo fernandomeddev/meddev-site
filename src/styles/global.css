@@ -40,8 +40,15 @@
 
   }
   h1{
-      color: var(--color-text-title);
+      color: var(--color-text-light);
       margin-top:40px 0;
       font-size: 30px;
 
   }
+
+  #tabelaPacientes{
+      border: 2px solid red;
+      background-color: #EDEDED;
+    
+      
+  }      

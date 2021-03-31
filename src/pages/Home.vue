@@ -1,14 +1,21 @@
 <template>
     <main>
-        <div class="text-top">Vídeos novos toda <b>quinta</b> às <b>20h</b></div>
-
-        <a href="https://www.youtube.com/channel/UCPtOwBPlYOQTDaCUxUyGSSA" target="blank">
-        <img src="https://raw.githubusercontent.com/william-costa/wdev-mock-site-resources/master/assets/images/subscribe.svg
-" alt="inscreva-se" id="subscribe">
-        
-        </a>
-
-        <div class="text-bottom">youtube.com/desenvtioficial</div>
+        <h1>Pacientes</h1>
+            <table id="tabelaPacientes" style="width:500px;text-align:center;">
+                <thead>
+                    <tr>
+                        <th>Paciente:</th>
+                        
+                    </tr>
+                    <tr>
+                        <th>Idade:</th>
+                        
+                    </tr>
+                    <tr>
+                        <th>resultado:</th>
+                    </tr>
+                </thead>
+            </table>
     </main>
 </template>
 
